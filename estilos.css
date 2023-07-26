@@ -1,0 +1,16 @@
+.color{
+    background-color: red;
+    color :white;
+    font-size: 30px;
+
+}
+.ocultar {
+    display: none;
+}
+.mostrar { 
+    display: block;
+}
+
+.letra{
+    font-size: 60px;
+}

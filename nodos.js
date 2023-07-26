@@ -1,6 +1,6 @@
 // selecionar por nombre de etiquetas 
 
-let titulo =document.querySelector("h1");
+/*let titulo =document.querySelector("h1");
 console.log(titulo);
 titulo.style.backgroundColor="red";
 //seleccionar por nombre de la clase 
@@ -37,8 +37,10 @@ a.setAttribute("href", "https://www.youtube.com");
 a.setAttribute("target", "_blank");
 a.textContent="youtube";
 let textoEnlace= a.textoContent;
-let body = document.body;
-body.appendChild(a);
+subtitulo1.insertAdjacentElement("afterend", a);
+
+//let body = document.body;
+//body.appendChild(a);
 
 
 let p3 =document.querySelector(".p3");
@@ -47,4 +49,20 @@ let texto =p3.textContent;
 h1.textContent=texto;
 p3.replaceWith(h1);
 
-h1.remove()
+h1.remove()*/
+
+let titulo = document.querySelector("h1");
+//agregar una clase desde css
+//titulo.classList.add("color")
+//eliminar una cladse de css al elemento 
+//titulo.classList.remove("letra");
+titulo.classList.toggle("color");
+//comprobar si existe una clase en el elemento
+let existeClase = titulo.classList.contains ("color");
+console.log ("el elemento tiene la clase?" + existeClase);
+
+let p2 = document.querySelector(".p2");
+// ocultar por style
+//p2.style.display="none";
+//p2.classList.add("ocultar");
+//
