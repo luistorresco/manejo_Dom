@@ -1,0 +1,39 @@
+
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.nieve {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nieve:hover {
+    background-color: #728172;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #070707;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
